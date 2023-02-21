@@ -1,4 +1,4 @@
-# CSD110 Introduction to Web Development
+# CSD112 Introduction to Web Development
 
 ## Contributors
 - Gurkirat - index.html
