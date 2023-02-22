@@ -10,9 +10,32 @@
           background-attachment: fixed; 
           background-size: 100% 100%;
         }
+        table {
+            width: 100%;
+        }
         </style>
 </head>
 <body>
+    <table>
+        <colgroup>
+            <col style="width:10%;">
+            <col style="width:80%;">
+            <col style="width:10%;">
+        </colgroup>
+        <tr>
+            <td colspan="3">&nbsp;</td>
+        </tr>
+        <tr>
+            <td>&nbsp;</td>
+            <td style="text-align: right">
+                <a style="margin-left:10px" href="recipes.html">Recipes</a>
+                <a style="margin-left:10px" href="ingredients.html">Ingredients</a>
+                <a style="margin-left:10px" href="restaurants.html">Restaurants</a>
+                <a style="margin-left:10px" href="ideas.html">Ideas</a>
+            </td>
+            <td>&nbsp;</td>
+        </tr>
+    </table>
     <h2 style="color:rgb(250, 249, 251);">Wanna share some ideas? Write it here</h2>
     <form action="/action_page.php">
         <label for="fname">Topic/Name of recipe</label><br>
