@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Ingredients</title>
+    <style>
+        body {
+            background-image: url('images/background.jpg');
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: 100% 100%;
+        }
+
+        table {
+            width: 100%;
+        }
+
+        /*table, th, td {*/
+        /*    border: 1px solid black;*/
+        /*}*/
+        td {
+            border-radius: 10px;
+        }
+        .search {
+            text-align: center;
+            background-color: rgba(211,211,211,0.75);
+            padding: 5px
+        }
+    </style>
+</head>
+<body>
+<table>
+    <colgroup>
+        <col style="width:10%;">
+        <col style="width:80%;">
+        <col style="width:10%;">
+    </colgroup>
+    <tr>
+        <td colspan="3">&nbsp;</td>
+    </tr>
+    <tr>
+        <td>&nbsp;</td>
+        <td style="text-align: right">
+            <a style="margin-left:10px" href="/recipes.html">Recipes</a>
+            <a style="margin-left:10px" href="ingredients.html">Ingredients</a>
+            <a style="margin-left:10px" href="/restaurants.html">Restaurants</a>
+            <a style="margin-left:10px" href="ideas.html">Ideas</a>
+        </td>
+        <td>&nbsp;</td>
+    </tr>
+</table>
+<br/>
+<br/>
+<table>
+    <colgroup>
+        <col style="width:10%;">
+        <col style="width:35%;">
+        <col style="width:15%;">
+        <col style="width:15%;">
+        <col style="width:15%;">
+        <col style="width:10%;">
+    </colgroup>
+    <tr>
+        <form>
+            <td>&nbsp;</td>
+            <td class="search">
+                <label for="ingredient">Ingredient</label>
+                <input type="text" id="ingredient" name="ingredient"/>
+                <button type="submit">Submit</button>
+            </td>
+            <td class="search">
+            <label for="country">Country:</label>
+                <select id="country" name="country">
+                    <option value="Canada">Canada</option>
+                    <option value="India">India</option>
+                    <option value="Philippines">Philippines</option>
+                </select>
+            </td>
+            <td class="search">
+            <label for="province">Province:</label>
+                <select id="province" name="province">
+                    <option value="province1">Province1</option>
+                    <option value="province2">Province2</option>
+                    <option value="province3">Province3</option>
+                </select>
+            </td>
+            <td class="search">
+            <label for="city">City:</label>
+                <select id="city" name="city">
+                    <option value="city1">City1</option>
+                    <option value="city2">City2</option>
+                    <option value="city3">City3</option>
+                </select>
+            </td>
+            <td>&nbsp;</td>
+        </form>
+    </tr>
+</table>
+<br/>
+<br/>
+<table>
+    <colgroup>
+        <col style="width:10%;">
+        <col style="width:24%;">
+        <col style="width:2%;">
+        <col style="width:54%;">
+        <col style="width:10%;">
+    </colgroup>
+    <tr>
+        <td>&nbsp;</td>
+        <td style="text-align: center;vertical-align: top;background-color: rgba(211,211,211,0.75);">
+            <h2>Curry Powder</h2>
+            <img src="images/image-220x220.png" height="222" width="222"/>
+        </td>
+        <td>&nbsp;</td>
+        <td style="background-color: rgba(211,211,211,0.75); padding: 20px">
+            <p><b>Lorem ipsum</b> dolor sit amet, consectetur adipiscing elit. Sed hendrerit ipsum et ipsum suscipit,
+                sed auctor dolor facilisis. Ut eu mi est. Sed vel elit porta, pellentesque nibh id, aliquet lectus. In
+                eget orci ex. Integer ipsum diam, efficitur sed fermentum ultricies, luctus tincidunt ligula.
+                Suspendisse sagittis varius metus quis interdum. Fusce ex turpis, pretium eget ipsum non, pretium tempor
+                purus. Praesent sit amet faucibus nisl. Proin ante neque, fermentum nec congue a, cursus vel purus. In
+                euismod mi non sapien dignissim, at iaculis dolor finibus.</p>
+            <p><b>Phasellus pharetra</b> at ligula vitae congue. Duis sit amet nisi sed lectus tincidunt pharetra nec at
+                metus. Etiam porttitor odio est, ac mollis tellus placerat nec. Mauris porta erat orci, in tincidunt
+                ipsum consectetur et. Quisque feugiat fermentum cursus. Aliquam ac diam nunc. Nunc pellentesque neque
+                vitae enim pharetra cursus.</p>
+            <p><b>Nulla gravida lacus</b> ac justo tempor, eget aliquet mauris vestibulum. Curabitur sem sem, rhoncus ac
+                ante a, fringilla vulputate tortor. Nullam rutrum cursus dui, et feugiat enim vulputate eu. Fusce
+                aliquam ultricies nisl sed ullamcorper. Nunc venenatis euismod leo, non dictum massa facilisis eu.
+                Phasellus id magna eu massa sodales lobortis vel nec tortor. Vestibulum porta nulla ante, sit amet porta
+                risus luctus sit amet. Sed in hendrerit augue. Donec laoreet metus sed justo egestas fermentum. Morbi
+                imperdiet interdum ante, nec sollicitudin felis vulputate sed. In scelerisque a leo vel venenatis.
+                Aliquam at vulputate lorem.</p>
+        </td>
+        <td>&nbsp;</td>
+    </tr>
+</table>
+
+</body>
+</html>
