@@ -3,8 +3,26 @@
 <head>
     <meta charset="UTF-8">
     <title>Ideas</title>
+     <style>
+        body {
+          background-image: url('images/background.jpg');
+          background-repeat: no-repeat;
+          background-attachment: fixed; 
+          background-size: 100% 100%;
+        }
+        </style>
 </head>
 <body>
+    <h2 style="color:rgb(250, 249, 251);">Wanna share some ideas? Write it here</h2>
+    <form action="/action_page.php">
+        <label for="fname">Topic/Name of recipe</label><br>
+        <textarea name="message" rows="2" cols="75">Type something....</textarea>
+       
+        <label for="lname">Description/Steps involved</label><br>
+        <textarea name="message" rows="30" cols="75">Description</textarea>
+        <br><br>
+        <input type="submit">
+      </form>
 
 </body>
 </html>
