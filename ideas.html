@@ -3,23 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <title>Ideas</title>
-     <style>
-        body {
-          background-image: url('images/background.jpg');
-          background-repeat: no-repeat;
-          background-attachment: fixed; 
-          background-size: 100% 100%;
-        }
-        table {
-            width: 100%;
-        }
-        </style>
+    <link rel="stylesheet" href="styles/common.css">
 </head>
 <body>
     <table>
         <colgroup>
             <col style="width:10%;">
-            <col style="width:80%;">
+            <col style="width:10%;">
+            <col style="width:70%;">
             <col style="width:10%;">
         </colgroup>
         <tr>
@@ -27,6 +18,7 @@
         </tr>
         <tr>
             <td>&nbsp;</td>
+            <td><a style="margin-left:10px" href="index.html">Home</a></td>
             <td style="text-align: right">
                 <a style="margin-left:10px" href="recipes.html">Recipes</a>
                 <a style="margin-left:10px" href="ingredients.html">Ingredients</a>
@@ -36,13 +28,13 @@
             <td>&nbsp;</td>
         </tr>
     </table>
-    <h2 style="color:rgb(250, 249, 251);">Wanna share some ideas? Write it here</h2>
+    <h2>Wanna share some ideas? Write it here</h2>
     <form action="/action_page.php">
-        <label for="fname">Topic/Name of recipe</label><br>
-        <textarea name="message" rows="2" cols="75">Type something....</textarea>
+        <label for="fname">Topic/Name of recipe</label><br/>
+        <textarea name="message" rows="2" cols="75">Type something....</textarea><br/><br/>
        
-        <label for="lname">Description/Steps involved</label><br>
-        <textarea name="message" rows="30" cols="75">Description</textarea>
+        <label for="lname">Description/Steps involved</label><br/>
+        <textarea name="message" rows="20" cols="75">Description</textarea>
         <br><br>
         <input type="submit">
       </form>
