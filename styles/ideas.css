@@ -1,0 +1,13 @@
+h2 {
+    color: blue;
+    font-family:Garamond, serif;
+    font-size: 250%;
+}
+table, th, td {
+
+    border-radius: 20px;
+    border-collapse: collapse;
+}
+th, td {
+
+}

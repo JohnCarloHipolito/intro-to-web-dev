@@ -6,38 +6,77 @@
     <link rel="stylesheet" href="styles/common.css">
 </head>
 <body>
-    <table>
-        <colgroup>
-            <col style="width:10%;">
-            <col style="width:10%;">
-            <col style="width:70%;">
-            <col style="width:10%;">
-        </colgroup>
-        <tr>
-            <td colspan="3">&nbsp;</td>
-        </tr>
-        <tr>
-            <td>&nbsp;</td>
-            <td><a style="margin-left:10px" href="index.html">Home</a></td>
-            <td style="text-align: right">
-                <a style="margin-left:10px" href="recipes.html">Recipes</a>
-                <a style="margin-left:10px" href="ingredients.html">Ingredients</a>
-                <a style="margin-left:10px" href="restaurants.html">Restaurants</a>
-                <a style="margin-left:10px" href="ideas.html">Ideas</a>
-            </td>
-            <td>&nbsp;</td>
-        </tr>
-    </table>
-    <h2>Wanna share some ideas? Write it here</h2>
+<table>
+    <colgroup>
+        <col style="width:10%;">
+        <col style="width:10%;">
+        <col style="width:70%;">
+        <col style="width:10%;">
+    </colgroup>
+    <tr>
+        <td colspan="3">&nbsp;</td>
+    </tr>
+    <tr>
+        <td>&nbsp;</td>
+        <td><a style="margin-left:10px" href="index.html">Home</a></td>
+        <td style="text-align: right">
+            <a style="margin-left:10px" href="recipes.html">Recipes</a>
+            <a style="margin-left:10px" href="ingredients.html">Ingredients</a>
+            <a style="margin-left:10px" href="restaurants.html">Restaurants</a>
+            <a style="margin-left:10px" href="ideas.html">Ideas</a>
+        </td>
+        <td>&nbsp;</td>
+    </tr>
+</table>
+<h2 style="color:rgb(251, 250, 250);">Wanna Share Something? Write it Here</h2>
+
+<table style="width:100%">
     <form action="/action_page.php">
-        <label for="fname">Topic/Name of recipe</label><br/>
-        <textarea name="message" rows="2" cols="75">Type something....</textarea><br/><br/>
-       
-        <label for="lname">Description/Steps involved</label><br/>
-        <textarea name="message" rows="20" cols="75">Description</textarea>
-        <br><br>
-        <input type="submit">
-      </form>
+
+        <tr>
+            <th style="width:35%">
+                <textarea name="message" rows="2" cols="69">Topic</textarea>
+                <br><br>
+            </th>
+            <th style="width:20%">f</th>
+            <th>
+            </th>
+        </tr>
+
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+
+        <tr style="height:250px">
+            <td>
+                <textarea name="message" rows="25" cols="69">Description of the Recipe</textarea>
+                <br><br>
+            </td>
+            <td></td>
+            <td>
+                <textarea name="message" rows="25" cols="69">Recently Shared</textarea>
+                <br><br>
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                <input type="submit">
+            </td>
+            <td></td>
+            <td></td>
+        </tr>
+
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+
+    </form>
+</table>
 
 </body>
 </html>
