@@ -1,11 +1,26 @@
-body {
-    background-image: url('../images/background.jpg');
-    background-repeat: no-repeat;
-    background-size: 100% auto;
-    background-attachment: fixed;
-    background-position: right -175px;
-}
-
 table {
     width: 100%;
 }
+
+.header-wrapper {
+    display: grid;
+    grid-template-columns: 10% 80% 10%;
+    grid-template-rows: repeat(5,25px);
+}
+
+.header-bg {
+    background-image: url('../images/background.jpg');
+    background-position: 0 0, center;
+    background-size: cover;
+    grid-area: 1 / 2 / 6 / 3;
+    overflow: hidden;
+}
+
+.header-nav {
+    grid-area: 5 / 2 / 6 / 3;
+    background-color: rgba(211, 211, 211, 0.75);
+    text-align: right;
+}
+
+.header
+
