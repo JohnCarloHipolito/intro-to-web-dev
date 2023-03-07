@@ -1,3 +1,7 @@
+td {
+    border-radius: 5px;
+}
+
 .bg-ingredients-img {
     text-align: center;
     vertical-align: top;

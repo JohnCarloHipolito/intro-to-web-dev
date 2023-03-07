@@ -1,13 +1,16 @@
 h2 {
     color: blue;
-    font-family:Garamond, serif;
+    font-family: Garamond, serif;
     font-size: 250%;
 }
-table, th, td {
 
+table, th, td {
     border-radius: 20px;
     border-collapse: collapse;
 }
-th, td {
 
+textarea {
+    background-color: rgba(211, 211, 211, 0.75);
+    border-radius: 5px;
+    padding: 10px;
 }
