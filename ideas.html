@@ -7,75 +7,76 @@
     <link rel="stylesheet" href="styles/ideas.css">
 </head>
 <body>
+<div class="header-wrapper">
+    <div class="header-bg header-bg-attribution">
+        Image from <a href="https://pixabay.com/photos/asparagus-steak-veal-steak-veal-2169305/">&nbsp;Pixabay</a>
+    </div>
+    <div class="nav-backdrop"></div>
+    <div class="header-nav">
+        <a href="index.html">Home</a>
+        <a href="recipes.html">Recipes</a>
+        <a href="ingredients.html">Ingredients</a>
+        <a href="restaurants.html">Restaurants</a>
+        <a href="ideas.html">Ideas</a>
+    </div>
+    <div class="header-page-name">IDEAS</div>
+</div>
+<br/>
+
 <table>
     <colgroup>
-        <col style="width:10%;">
-        <col style="width:10%;">
-        <col style="width:70%;">
-        <col style="width:10%;">
+        <col style="width: 10%">
+        <col style="width: 80%">
+        <col style="width: 10%">
     </colgroup>
     <tr>
-        <td colspan="3">&nbsp;</td>
-    </tr>
-    <tr>
         <td>&nbsp;</td>
-        <td><a style="margin-left:10px" href="index.html">Home</a></td>
-        <td style="text-align: right">
-            <a style="margin-left:10px" href="recipes.html">Recipes</a>
-            <a style="margin-left:10px" href="ingredients.html">Ingredients</a>
-            <a style="margin-left:10px" href="restaurants.html">Restaurants</a>
-            <a style="margin-left:10px" href="ideas.html">Ideas</a>
+        <td class="bg-main-content">
+            <table>
+                <form action="/action_page.php">
+                    <tr>
+                        <td colspan="3"><h2>Wanna Share Something? Write it Here</h2><br/></td>
+                    </tr>
+                    <tr>
+                        <td style="width: 50%">
+                            <textarea name="message" rows="2" cols="60" placeholder="Topic"></textarea>
+                            <br><br>
+                        </td>
+                    </tr>
+                    <tr style="height:250px">
+                        <td>
+                            <textarea name="message" rows="25" cols="60" placeholder="Description of the Recipe"></textarea>
+                            <br><br>
+                        </td>
+                        <td></td>
+                        <td>
+                            <textarea name="message" rows="25" cols="60" placeholder="Recently Shared">
+                            </textarea>
+                            <br><br>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>
+                            <input type="submit">
+                        </td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                </form>
+            </table>
         </td>
         <td>&nbsp;</td>
     </tr>
 </table>
-<h2 style="color:rgb(251, 250, 250);">Wanna Share Something? Write it Here</h2>
 
-<table style="width:100%">
-    <form action="/action_page.php">
-        <tr>
-            <td style="width:35%">
-                <textarea name="message" rows="2" cols="69" placeholder="Topic"></textarea>
-                <br><br>
-            </td>
-            <td style="width:20%">&nbsp;</td>
-            <td>
-            </td>
-        </tr>
 
-        <tr>
-            <td></td>
-            <td></td>
-            <td></td>
-        </tr>
-
-        <tr style="height:250px">
-            <td>
-                <textarea name="message" rows="25" cols="69" placeholder="Description of the Recipe"></textarea>
-                <br><br>
-            </td>
-            <td></td>
-            <td>
-                <textarea name="message" rows="25" cols="69" placeholder="Recently Shared"></textarea>
-                <br><br>
-            </td>
-        </tr>
-
-        <tr>
-            <td>
-                <input type="submit">
-            </td>
-            <td></td>
-            <td></td>
-        </tr>
-
-        <tr>
-            <td></td>
-            <td></td>
-            <td></td>
-        </tr>
-    </form>
-</table>
 
 </body>
 </html>

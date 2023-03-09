@@ -1,27 +1,34 @@
-td {
+.ingredients-wrapper {
+    min-height: 500px;
+    display: grid;
+    grid-template-columns: 100px 1fr;
+    grid-template-rows: 50px 1fr;
+}
+
+.ingredients-main {
+    grid-area: 1 / 2 / 3 / 10;
+    background-color: rgba(211, 211, 211, 0.75);
     border-radius: 5px;
 }
 
-.bg-ingredients-img {
-    text-align: center;
-    vertical-align: top;
-    background-color: rgba(211, 211, 211, 0.75);
+.ingredients-search {
+    grid-area: 1 / 2 / 2 / 4;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-.bg-ingredients-store {
-    background-color: rgba(211, 211, 211, 0.75);
+.ingredients-img {
+    grid-area: 2 / 2 / 3 / 4;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.ingredients-text {
+    grid-area: 2 / 4 / 3 / 10;
     padding: 20px;
 }
-
-
-.search {
-    text-align: center;
-    background-color: rgba(211, 211, 211, 0.75);
-    padding: 5px;
-}
-
-/* grid for table layout
-table, th, td {
-    border: 1px solid black;
-}
-*/
