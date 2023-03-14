@@ -1,0 +1,29 @@
+.search {
+    text-align: center;
+    background-color: rgba(211, 211, 211, 0.75);
+    padding: 5px;
+}
+
+.resto-desc {
+    font-style: italic;
+    align-content: center;
+
+}
+
+.resto-name {
+    color: red;
+    font-style: italic;
+    text-align: center;
+    width: 100%;
+}
+
+tcontainer1 {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+tcontainer2 {
+    display: flex;
+    justify-content: space-around;
+}

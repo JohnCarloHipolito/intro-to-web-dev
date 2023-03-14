@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="styles/ideas.css">
 </head>
 <body>
-<table>
+<table class="nav-background">
     <colgroup>
         <col style="width:10%;">
         <col style="width:80%;">
@@ -16,7 +16,7 @@
     <tr>
         <td colspan="3"><br/><br/><br/></td>
     </tr>
-    <tr>
+    <tr class="nav-backdrop">
         <td>&nbsp;</td>
         <td class="nav-bar">
             <a href="index.html">Home</a>
@@ -28,52 +28,57 @@
         <td>&nbsp;</td>
     </tr>
 </table>
-<h2 style="color:rgb(251, 250, 250);">Wanna Share Something? Write it Here</h2>
+<table>
+    <colgroup>
+        <col style="width: 10%">
+        <col style="width: 80%">
+        <col style="width: 10%">
+    </colgroup>
+    <tr>
+        <td>&nbsp;</td>
+        <td class="bg-main-content">
+            <table>
+                <form action="/action_page.php">
+                    <tr>
+                        <td colspan="3"><h2>Wanna Share Something? Write it Here</h2></td>
+                    </tr>
+                    <tr>
+                        <td style="width: 50%">
+                            <textarea name="message" rows="2" cols="60" placeholder="Topic"></textarea>
+                            <br><br>
+                        </td>
+                    </tr>
+                    <tr style="height:250px">
+                        <td>
+                            <textarea name="message" rows="20" cols="60" placeholder="Description of the Recipe"></textarea>
+                            <br><br>
+                        </td>
+                        <td></td>
+                        <td>
+                            <textarea name="message" rows="20" cols="60" placeholder="Recently Shared">
+                            </textarea>
+                            <br><br>
+                        </td>
+                    </tr>
 
-<table style="width:100%">
-    <form action="/action_page.php">
-        <tr>
-            <td style="width:35%">
-                <textarea name="message" rows="2" cols="69" placeholder="Topic"></textarea>
-                <br><br>
-            </td>
-            <td style="width:20%">&nbsp;</td>
-            <td>
-            </td>
-        </tr>
+                    <tr>
+                        <td>
+                            <input type="submit">
+                        </td>
+                        <td></td>
+                        <td></td>
+                    </tr>
 
-        <tr>
-            <td></td>
-            <td></td>
-            <td></td>
-        </tr>
-
-        <tr style="height:250px">
-            <td>
-                <textarea name="message" rows="25" cols="69" placeholder="Description of the Recipe"></textarea>
-                <br><br>
-            </td>
-            <td></td>
-            <td>
-                <textarea name="message" rows="25" cols="69" placeholder="Recently Shared"></textarea>
-                <br><br>
-            </td>
-        </tr>
-
-        <tr>
-            <td>
-                <input type="submit">
-            </td>
-            <td></td>
-            <td></td>
-        </tr>
-
-        <tr>
-            <td></td>
-            <td></td>
-            <td></td>
-        </tr>
-    </form>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                </form>
+            </table>
+        </td>
+        <td>&nbsp;</td>
+    </tr>
 </table>
 
 </body>

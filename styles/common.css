@@ -1,24 +1,28 @@
 body {
-    background-image: url('../images/background.jpg');
-    background-repeat: no-repeat;
-    background-size: 100% auto;
-    background-attachment: fixed;
-    background-position: right -175px;
     overflow: scroll;
 }
 
 table {
     width: 100%;
+    border-spacing: unset;
+}
+
+.nav-background {
+    background-image: url('../images/background.jpg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.nav-backdrop {
+    background-color: rgba(211, 211, 211, 0.75);
 }
 
 .nav-bar {
-    background-color: rgba(211, 211, 211, 0.75);
     text-align: right;
     font-size: 20px;
-    padding: 5px;
 }
 
 .nav-bar > a {
-    margin-right: 10px;
-    margin-left: 20px;
+    padding: 10px;
 }
