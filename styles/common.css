@@ -1,11 +1,23 @@
 body {
-    overflow: scroll;
+    /*overflow: scroll;*/
     font-family: Arial, sans-serif;
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+.content {
+    flex: 1;
 }
 
 table {
     width: 100%;
     border-spacing: unset;
+}
+
+* {
+    margin: 0;
+    padding: 0;
 }
 
 .nav-background {
@@ -26,4 +38,21 @@ table {
 
 .nav-bar > a {
     padding: 10px;
+}
+
+.footer {
+    margin-top: 50px;
+    background-image: url('../images/background.jpg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+
+.footer-contacts {
+    text-align: right;
+}
+
+.footer-backdrop {
+    background-color: rgba(211, 211, 211, 0.75);
+    height: 20px;
 }

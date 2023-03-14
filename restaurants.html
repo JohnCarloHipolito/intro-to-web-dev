@@ -5,137 +5,167 @@
     <title>Restaurants</title>
     <link rel="stylesheet" href="styles/common.css">
     <link rel="stylesheet" href="styles/restaurants.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"/>
 </head>
 <body>
-<table class="nav-background">
-    <colgroup>
-        <col style="width:10%;">
-        <col style="width:80%;">
-        <col style="width:10%;">
-    </colgroup>
-    <tr>
-        <td colspan="3"><br/><br/><br/></td>
-    </tr>
-    <tr class="nav-backdrop">
-        <td>&nbsp;</td>
-        <td class="nav-bar">
-            <a href="index.html">Home</a>
-            <a href="recipes.html">Recipes</a>
-            <a href="ingredients.html">Ingredients</a>
-            <a href="restaurants.html">Restaurants</a>
-            <a href="ideas.html">Ideas</a>
-        </td>
-        <td>&nbsp;</td>
-    </tr>
-</table>
-<br/>
-<br/>
-<table>
-    <colgroup>
-        <col style="width:10%;">
-        <col style="width:35%;">
-        <col style="width:15%;">
-        <col style="width:15%;">
-        <col style="width:15%;">
-        <col style="width:10%;">
-    </colgroup>
-    <tr>
-        <form>
+<div class="content">
+    <table class="nav-background">
+        <colgroup>
+            <col style="width:10%;">
+            <col style="width:80%;">
+            <col style="width:10%;">
+        </colgroup>
+        <tr>
+            <td colspan="3"><br/><br/><br/></td>
+        </tr>
+        <tr class="nav-backdrop">
             <td>&nbsp;</td>
-            <td class="search">
-                <label for="Restaurants">Restaurants</label>
-                <input type="text" id="Restaurants" name="Restaurants"/>
-                <button type="submit">Submit</button>
-            </td>
-            <td class="search">
-                <label for="country">Country:</label>
-                <select id="country" name="country">
-                    <option value="Canada">Canada</option>
-                    <option value="India">India</option>
-                    <option value="Philippines">Philippines</option>
-                </select>
-            </td>
-            <td class="search">
-                <label for="state">Province:</label>
-                <select id="state" name="state">
-                    <option value="province1">Province1</option>
-                    <option value="province2">Province2</option>
-                    <option value="province3">Province3</option>
-                </select>
-            </td>
-            <td class="search">
-                <label for="city">City:</label>
-                <select id="city" name="city">
-                    <option value="city1">City1</option>
-                    <option value="city2">City2</option>
-                    <option value="city3">City3</option>
-                </select>
+            <td class="nav-bar">
+                <a href="index.html">Home</a>
+                <a href="recipes.html">Recipes</a>
+                <a href="ingredients.html">Ingredients</a>
+                <a href="restaurants.html">Restaurants</a>
+                <a href="ideas.html">Ideas</a>
             </td>
             <td>&nbsp;</td>
-        </form>
-    </tr>
-</table>
-<br/>
-<br/>
-<table>
+        </tr>
+    </table>
+    <br/>
+    <br/>
+    <table>
+        <colgroup>
+            <col style="width:10%;">
+            <col style="width:35%;">
+            <col style="width:15%;">
+            <col style="width:15%;">
+            <col style="width:15%;">
+            <col style="width:10%;">
+        </colgroup>
+        <tr>
+            <form>
+                <td>&nbsp;</td>
+                <td class="search">
+                    <label for="Restaurants">Restaurants</label>
+                    <input type="text" id="Restaurants" name="Restaurants"/>
+                    <button type="submit">Submit</button>
+                </td>
+                <td class="search">
+                    <label for="country">Country:</label>
+                    <select id="country" name="country">
+                        <option value="Canada">Canada</option>
+                        <option value="India">India</option>
+                        <option value="Philippines">Philippines</option>
+                    </select>
+                </td>
+                <td class="search">
+                    <label for="state">Province:</label>
+                    <select id="state" name="state">
+                        <option value="province1">Province1</option>
+                        <option value="province2">Province2</option>
+                        <option value="province3">Province3</option>
+                    </select>
+                </td>
+                <td class="search">
+                    <label for="city">City:</label>
+                    <select id="city" name="city">
+                        <option value="city1">City1</option>
+                        <option value="city2">City2</option>
+                        <option value="city3">City3</option>
+                    </select>
+                </td>
+                <td>&nbsp;</td>
+            </form>
+        </tr>
+    </table>
+    <br/>
+    <br/>
+    <table>
+        <colgroup>
+            <col style="width:10%;">
+            <col style="width:30%; background-color: rgba(211, 211, 211, 0.75);">
+            <col style="width:10%; background-color: rgba(211, 211, 211, 0.75);">
+            <col style="width:20%; background-color: rgba(211, 211, 211, 0.75);">
+            <col style="width:20%; background-color: rgba(211, 211, 211, 0.75);">
+            <col style="width:10%;">
+        </colgroup>
+        <tr style="margin: 10px;">
+            <td>&nbsp;</td>
+            <td style="padding-left: 70px;">Restaurants</td>
+            <td>Ratings</td>
+            <td>Locations</td>
+            <td>Visit here</td>
+        </tr>
+        <tr>
+            <td>&nbsp;</td>
+            <td>
+                <div class="resto-name">bkupfert & Kim</div>
+                <p class="resto-desc">Healthy-minded counter serve offering a meatless menu of salads & grain bowls,
+                    plus
+                    breakfast fare</p>
+            </td>
+            <td> 4.3/5
+            </td>
+            <td>140,Spadina, Toronto
+            </td>
+            <td><a href="https://g.page/kupfertandkim?share">bkupfert & Kim webpage</a>
+            </td>
+        </tr>
+        <tr>
+            <td>&nbsp;</td>
+            <td>
+                <div class="resto-name">IQ</div>
+                <p class="resto-desc">Counter-service spot for clever health-minded breakfasts, plus lunchtime wraps,
+                    hot boxes &
+                    salads</p>
+            </td>
+            <td>4.4/5</td>
+            <td>180 york street. Toronto</td>
+            <td><a href=" https://g.page/ig-york?share ">IQ webpage</a></td>
+        </tr>
+        <tr>
+            <td>&nbsp;</td>
+            <td>
+                <div class="resto-name">Salus Fresh Foods</div>
+                <p class="resto-desc"> Modern counter-serve eatery offering healthy-conscious, build-your-own
+                    salads.wraps &
+                    boxes</p>
+            </td>
+            <td>4.7/5</td>
+            <td>777 bay steet, Toronto</td>
+            <td><a href="https://salusfreshfoods.com/">Salus Fresh Foods webpage</a></td>
+        </tr>
+        <tr>
+            <td>&nbsp;</td>
+            <td>
+                <div class="resto-name">Freshii</div>
+                <p class="resto-desc"> Health-minded, counter-serve chain offering tossed-to-order
+                    salads,plus,soups,</p></td>
+            <td>4.2/5</td>
+            <td>23 College,street,Toronto</td>
+            <td><a href="https://g.page/freshii-collegepark?share ">Freshii webpage</a></td>
+        </tr>
+    </table>
+</div>
+<table class="footer">
     <colgroup>
         <col style="width:10%;">
-        <col style="width:30%; background-color: rgba(211, 211, 211, 0.75);">
-        <col style="width:10%; background-color: rgba(211, 211, 211, 0.75);">
-        <col style="width:20%; background-color: rgba(211, 211, 211, 0.75);">
-        <col style="width:20%; background-color: rgba(211, 211, 211, 0.75);">
+        <col style="width:40%;">
+        <col style="width:40%;">
         <col style="width:10%;">
     </colgroup>
-    <tr style="margin: 10px;">
-        <td>&nbsp;</td>
-        <td style="padding-left: 70px;">Restaurants</td>
-        <td>Ratings</td>
-        <td>Locations</td>
-        <td>Visit here</td>
+    <tr class="footer-backdrop">
+        <td></td>
+        <td><i class="fa-regular fa-copyright"></i> 2023 iwantTOeat.com</td>
+        <td class="footer-contacts">
+            <i class="fa-brands fa-facebook">&nbsp;|&nbsp;</i>
+            <i class="fa-brands fa-twitter">&nbsp;|&nbsp;</i>
+            <i class="fa-brands fa-instagram">&nbsp;|&nbsp;</i>
+            <i class="fa-brands fa-tiktok">&nbsp;&nbsp;&nbsp;</i>
+        </td>
+        <td></td>
     </tr>
-    <tr>
-        <td>&nbsp;</td>
-        <td>
-            <div class="resto-name">bkupfert & Kim</div>
-            <p class="resto-desc">Healthy-minded counter serve offering a meatless menu of salads & grain bowls, plus
-                breakfast fare</p>
-        </td>
-        <td> 4.3/5
-        </td>
-        <td>140,Spadina, Toronto
-        </td>
-        <td><a href="https://g.page/kupfertandkim?share">bkupfert & Kim webpage</a>
-        </td>
-    </tr>
-    <tr>
-        <td>&nbsp;</td>
-        <td><div class="resto-name">IQ</div>
-            <p class="resto-desc">Counter-service spot for clever health-minded breakfasts, plus lunchtime wraps, hot boxes &
-                salads</p>
-        </td>
-        <td>4.4/5</td>
-        <td>180 york street. Toronto</td>
-        <td><a href=" https://g.page/ig-york?share ">IQ webpage</a></td>
-    </tr>
-    <tr>
-        <td>&nbsp;</td>
-        <td><div class="resto-name">Salus Fresh Foods</div>
-            <p class="resto-desc"> Modern counter-serve eatery offering healthy-conscious, build-your-own salads.wraps &
-                boxes</p>
-        </td>
-        <td>4.7/5</td>
-        <td>777 bay steet, Toronto</td>
-        <td><a href="https://salusfreshfoods.com/">Salus Fresh Foods webpage</a></td>
-    </tr>
-    <tr>
-        <td>&nbsp;</td>
-        <td><div class="resto-name">Freshii</div>
-            <p class="resto-desc"> Health-minded, counter-serve chain offering tossed-to-order salads,plus,soups,</p></td>
-        <td>4.2/5</td>
-        <td>23 College,street,Toronto</td>
-        <td><a href="https://g.page/freshii-collegepark?share ">Freshii webpage</a></td>
-    </tr>
-
+    <tr><td colspan="4">&nbsp;</td></tr>
+    <tr><td colspan="4">&nbsp;</td></tr>
 </table>
 </body>
 </html>
