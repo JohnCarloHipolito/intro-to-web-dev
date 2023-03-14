@@ -23,3 +23,12 @@ h2 {
     padding-left: 120px;
     font-style: initial;
 }
+
+.home-image1 {
+    margin-left: 10%;
+}
+
+.content {
+    background-image: url('../images/index-bg.png');
+    background-size: cover;
+}

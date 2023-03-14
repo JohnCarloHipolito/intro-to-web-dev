@@ -12,6 +12,11 @@
     background-color: rgba(211, 211, 211, 0.75);
 }
 
+.recipe-image-area {
+    text-align: center;
+    vertical-align: center;
+}
+
 .td-image {
     text-align: center;
 }
